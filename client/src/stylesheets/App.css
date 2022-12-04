@@ -1,0 +1,178 @@
+h1 { 
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+h3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+div {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+p {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+blockquote {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;font-variant: normal;
+}
+
+pre {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/*
+.App-header {
+  background-color: rgb(150,22,22);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  padding: 20px;
+  padding-right: 40%;
+  padding-left: 5%;
+}
+
+.App-header > h1 {
+  color: rgb(150,22,22);
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+#response{
+  padding: 50px;
+}
+
+#level{
+  padding: 50px;
+}
+
+#input{
+  border: none;
+  height: 30px;
+}
+
+#submit_response{
+  margin: 2px;
+  background-color:rgb(150,22,22);
+}
+
+#submit_response:hover{
+  margin: 2px;
+  background-color:#d00808;
+}
+
+#quick_reg{
+  margin: 2px;
+  background-color:rgb(150,22,22);
+  width: 80%;
+  font-size: medium;
+}
+
+#quick_reg:hover{
+  margin: 2px;
+  background-color:#d00808;
+  width: 80%;
+  font-size: medium;
+}
+
+#login_signup{
+  margin: 2px;
+  background-color:rgb(150,22,22);
+  width: 80%;
+  font-size: medium;
+}
+
+#login_signup:hover{
+  margin: 2px;
+  background-color:#d00808;
+  width: 80%;
+  font-size: medium;
+}
+
+#register{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#quick_register{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#quick_login{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#submit_quick_respond{
+  margin: 2px;
+  background-color:rgb(150,22,22);
+  width: 100%;
+  font-size: medium;
+}
+
+#submit_quick_respond:hover{
+  margin: 2px;
+  background-color:#d00808;
+  width: 100%;
+  font-size: medium;
+}
+
+#submit_quick_login{
+  margin: 2px;
+  background-color:rgb(150,22,22);
+  width: 100%;
+  font-size: medium;
+}
+
+#submit_quick_login:hover{
+  margin: 2px;
+  background-color:#d00808;
+  width: 100%;
+  font-size: medium;
+}
+
+#submit_div{
+  margin-left: 80%;
+}
+
+#submit_div_login{
+  margin-left: 80%;
+}
+*/

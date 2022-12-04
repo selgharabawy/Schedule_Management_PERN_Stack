@@ -1,0 +1,199 @@
+#header {
+  width: 100vw;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#sub-header {
+  width: 100vw;
+  font-size: 50;
+  height: 60px;
+}
+
+#recurrence {
+  color: white;
+  text-align: center;
+  background: #1d024e;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 7px;
+  padding-bottom: 100%;
+  font-size: 90%;
+}
+
+
+#once {
+  color: white;
+  text-align: center;
+  background: #5c0d51;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 7px;
+  padding-bottom: 100%;
+  font-size: 90%;
+}
+
+#recurrence-filter {
+  margin: 2px;
+  color: white;
+  text-align: center;
+  background-color: #1d024e;
+  cursor: pointer;
+}
+
+#once-filter {
+  margin: 2px;
+  color: white;
+  text-align: center;
+  background-color: #5c0d51;
+  cursor: pointer;
+}
+
+#create-appointment {
+  margin: 2px;
+  color: white;
+  text-align: center;
+  background-color: rgb(102, 103, 107);
+  cursor: pointer;
+}
+
+#create-appointment:hover {
+  margin: 2px;
+  color: white;
+  text-align: center;
+  background-color: rgb(80, 80, 83);
+  cursor: pointer;
+}
+
+#submit-create-appointment, #submit-reschedule-appointment {
+  margin-top: 2%;
+  margin-left: 80%;
+  color: white;
+  font-size: larger;
+  padding: 1%;
+  background: rgb(102, 103, 107);
+}
+
+#submit-create-appointment:hover, #submit-reschedule-appointment:hover {
+  background: rgb(80, 80, 83);
+}
+
+.Dropdown {
+  width: 100%;
+}
+
+.e-schedule .e-appointment-details {
+  padding: 0 !important;
+}
+
+#create-appointment-div {
+  margin: 5vw;
+  width: 90vw;
+}
+
+#reschedule-appointment-div {
+  margin: 5vw;
+  width: 90vw;
+}
+
+.input {
+  width: 100%;
+}
+
+
+@media only screen
+
+/*and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)*/
+and (orientation: portrait) {
+
+  .Dropdown {
+    font-size: xx-small;
+  }
+
+  .input {
+    font-size: xx-small;
+  }
+
+  
+}
+
+DateTimePickerComponent {
+  background-color: #FFFFFF;
+}
+
+
+
+@media (orientation: landscape) {
+  #reschedule-button {
+    background-color: rgb(102, 103, 107);
+    color: white;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5%;
+  }
+
+  #reschedule-button:hover {
+    background-color: rgb(80, 80, 83);
+
+  }
+
+  #reschedule-remove-buttons {
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    position: relative;
+  }
+
+  .button-div {
+    width: 15vw;
+    height: 50px;
+    background-color: white;
+    padding: 0.5%;
+    padding-top: 0.7%;
+  }
+}
+
+@media (orientation: portrait) {
+  #reschedule-button {
+    background-color: rgb(102, 103, 107);
+    color: white;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-size: 2.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5%;
+  }
+
+  #reschedule-button:hover {
+    display: block;
+    background-color: rgb(80, 80, 83);
+    position: relative;
+  }
+
+  #reschedule-remove-buttons {
+    position: relative;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+  }
+
+  .button-div {
+    width: 20vw;
+    height: 12vw;
+    background-color: white;
+    padding: 0.5%;
+    padding-top: 0.7%;
+  }
+}

@@ -1,0 +1,39 @@
+@media (orientation: landscape){
+    #remove-button{
+      background-color:rgb(221, 19, 19);
+      color: white;
+      width: 90%;
+      height: 90%;
+      text-align: center;
+      font-size: small;
+      font-weight: bold;
+      cursor: pointer;
+      border-style: none;
+      border-radius: 5%;
+    }
+    #remove-button:hover{
+      background-color:#9c0303;
+    
+    }
+}
+
+@media (orientation: portrait){
+    #remove-button{
+        background-color:rgb(221, 19, 19);
+        color: white;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        font-size: 2.1vw;
+        font-weight: bold;
+        cursor: pointer;
+        border-style: none;
+        border-radius: 5%;
+    }
+    #remove-button:hover{
+        display: block;
+        background-color:#9c0303;
+        position: relative;
+    }
+    
+}
